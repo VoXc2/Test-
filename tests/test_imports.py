@@ -1,4 +1,4 @@
-"""Test that all 50 income stream modules + 6 prompt frameworks import without errors."""
+"""Test that all 60 income stream modules + 14 prompt frameworks import without errors."""
 
 import sys
 from pathlib import Path
@@ -256,11 +256,54 @@ def test_import_feedback_analyzer():
     assert FeedbackAnalyzer() is not None
 
 
+# === Batch 5: Marketing & Sales (51-60) ===
+
+def test_import_email_sequences():
+    from income_streams.email_sequences import EmailSequenceGenerator
+    assert EmailSequenceGenerator() is not None
+
+def test_import_sales_funnel():
+    from income_streams.sales_funnel import SalesFunnelBuilder
+    assert SalesFunnelBuilder() is not None
+
+def test_import_landing_page_copy():
+    from income_streams.landing_page_copy import LandingPageCopyGenerator
+    assert LandingPageCopyGenerator() is not None
+
+def test_import_ad_copy_generator():
+    from income_streams.ad_copy_generator import AdCopyGenerator
+    assert AdCopyGenerator() is not None
+
+def test_import_lead_magnet_creator():
+    from income_streams.lead_magnet_creator import LeadMagnetCreator
+    assert LeadMagnetCreator() is not None
+
+def test_import_pricing_optimizer():
+    from income_streams.pricing_optimizer import PricingStrategyOptimizer
+    assert PricingStrategyOptimizer() is not None
+
+def test_import_customer_journey():
+    from income_streams.customer_journey import CustomerJourneyMapper
+    assert CustomerJourneyMapper() is not None
+
+def test_import_affiliate_program():
+    from income_streams.affiliate_program import AffiliateProgramBuilder
+    assert AffiliateProgramBuilder() is not None
+
+def test_import_launch_sequence():
+    from income_streams.launch_sequence import LaunchSequencePlanner
+    assert LaunchSequencePlanner() is not None
+
+def test_import_seo_optimizer():
+    from income_streams.seo_optimizer import SEOContentOptimizer
+    assert SEOContentOptimizer() is not None
+
+
 # === Prompt Frameworks ===
 
 def test_import_frameworks():
     from prompt_frameworks import FRAMEWORKS
-    assert len(FRAMEWORKS) == 6
+    assert len(FRAMEWORKS) == 14
 
 def test_framework_info():
     from prompt_frameworks import FRAMEWORKS

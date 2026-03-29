@@ -1,6 +1,6 @@
 # AI Income Streams - مصادر دخل بالذكاء الاصطناعي 🤖💰
 
-> منظومة **50 أداة ذكاء اصطناعي** لتوليد دخل حقيقي وملموس - مؤتمتة بالكامل من الإدخال للمخرج
+> منظومة **60 أداة ذكاء اصطناعي + 14 إطار استراتيجي** لتوليد دخل حقيقي وملموس - مؤتمتة بالكامل من الإدخال للمخرج
 
 ---
 
@@ -28,7 +28,7 @@ python -m pytest tests/test_imports.py -v
 
 ---
 
-## 📊 مصادر الدخل الـ 50
+## 📊 مصادر الدخل الـ 60
 
 ### 🔴 المستوى الأول: دخل سريع (1-4)
 
@@ -153,9 +153,24 @@ python -m pytest tests/test_imports.py -v
 | 49 | **كتابة مقترحات منح** | 1,000-5,000 ر.س/مقترح | `python -m income_streams.grant_proposals.writer --project "مشروع تقني"` |
 | 50 | **تحليل تعليقات العملاء** | 500-2,000 ر.س/تحليل | `python -m income_streams.feedback_analyzer.analyzer --business "متجر"` |
 
+### 🚀 التسويق والمبيعات (51-60)
+
+| # | المصدر | الدخل المتوقع | الأمر |
+|---|--------|--------------|-------|
+| 51 | **تسلسلات إيميل** | 200-1,500 ر.س/تسلسل | `python -m income_streams.email_sequences.sequence_generator --product "دورة تدريبية" --type nurture` |
+| 52 | **قمع مبيعات** | 500-3,000 ر.س/قمع | `python -m income_streams.sales_funnel.funnel_builder --business "متجر إلكتروني"` |
+| 53 | **نسخ صفحات هبوط** | 300-2,000 ر.س/صفحة | `python -m income_streams.landing_page_copy.copy_generator --product "تطبيق SaaS"` |
+| 54 | **مولد إعلانات** | 200-1,500 ر.س/حملة | `python -m income_streams.ad_copy_generator.ad_generator --product "منتج" --platform meta` |
+| 55 | **Lead Magnets** | 300-2,000 ر.س/magnet | `python -m income_streams.lead_magnet_creator.magnet_creator --niche "عقارات" --type checklist` |
+| 56 | **تسعير ذكي** | 500-3,000 ر.س/تحليل | `python -m income_streams.pricing_optimizer.pricing_engine --product "خدمة SaaS"` |
+| 57 | **رحلة العميل** | 500-2,500 ر.س/خريطة | `python -m income_streams.customer_journey.journey_mapper --business "متجر أزياء"` |
+| 58 | **برنامج أفلييت** | 500-3,000 ر.س/برنامج | `python -m income_streams.affiliate_program.program_builder --product "دورة أونلاين"` |
+| 59 | **خطة إطلاق** | 1,000-5,000 ر.س/إطلاق | `python -m income_streams.launch_sequence.launch_planner --product "منتج جديد" --type plf` |
+| 60 | **تحسين SEO** | 200-1,500 ر.س/قطعة | `python -m income_streams.seo_optimizer.seo_engine --topic "أفضل أدوات AI"` |
+
 ---
 
-## 🧠 أطر العمل الذكية (6 أطر من تغريدات @Mbk8g)
+## 🧠 أطر العمل الاستراتيجية (14 إطار)
 
 ```bash
 # عرض جميع الأطر
@@ -163,9 +178,13 @@ python -m prompt_frameworks.runner --list
 
 # تشغيل إطار محدد
 python -m prompt_frameworks.runner -f career_survival -i "career_description=مهندس برمجيات 5 سنوات"
-python -m prompt_frameworks.runner -f deep_thinking -i "problem_statement=كيف أبدأ مشروع تقني"
-python -m prompt_frameworks.runner -f opportunity_finder -i "position_description=مطور تطبيقات في الرياض"
+python -m prompt_frameworks.runner -f nash_equilibrium -i "strategic_situation=تفاوض على راتب مع عرض من شركة منافسة"
+python -m prompt_frameworks.runner -f first_principles -i "problem_or_assumption=لازم أسوي MBA علشان أترقى"
+python -m prompt_frameworks.runner -f inversion_solver -i "goal=بناء مشروع SaaS ناجح"
+python -m prompt_frameworks.runner -f regret_minimization -i "life_choice=أترك وظيفتي وأبدأ مشروعي الخاص"
 ```
+
+### الأطر الأصلية (من تغريدات @Mbk8g)
 
 | # | الإطار | الوصف | المدخلات |
 |---|--------|-------|----------|
@@ -175,6 +194,19 @@ python -m prompt_frameworks.runner -f opportunity_finder -i "position_descriptio
 | 4 | **التفكير العميق** | حل مشكلات معقدة بأسلوب Princeton | `problem_statement` |
 | 5 | **قرار الحياة** | تحليل قرارات كبيرة بمبادئ HHH | `decision` |
 | 6 | **مكتشف الفرص** | فرص تقاطع مهاراتك × AI | `position_description` |
+
+### الأطر الاستراتيجية الجديدة
+
+| # | الإطار | الوصف | المدخلات |
+|---|--------|-------|----------|
+| 7 | **استراتيجي توازن ناش** | نظرية الألعاب لقرارات الأعمال والتفاوض | `strategic_situation` |
+| 8 | **مفكك المبادئ الأولى** | تفكيك الافتراضات وإعادة البناء من الصفر | `problem_or_assumption` |
+| 9 | **التفكير من الدرجة الثانية** | خريطة العواقب المتتالية للقرارات | `proposed_action` |
+| 10 | **حل المشكلات بالعكس** | اكتشف طرق الفشل ثم تجنبها | `goal` |
+| 11 | **المحدث البايزي** | حدّث معتقداتك بعقلانية مع الأدلة الجديدة | `belief_and_evidence` |
+| 12 | **إطار تقليل الندم** | إطار بيزوس: تخيل نفسك 80 سنة واتخذ القرار | `life_choice` |
+| 13 | **مخطط قوة أصحاب المصلحة** | خريطة القوة والتحالفات والتأثير | `organizational_situation` |
+| 14 | **حاسبة تكلفة الفرصة البديلة** | التكلفة الحقيقية لكل خيار | `options_description` |
 
 ---
 
@@ -186,7 +218,7 @@ Test-/
 │   ├── settings.yaml             # إعدادات AI والوحدات
 │   └── glossary.yaml             # مسرد مصطلحات الترجمة
 │
-├── income_streams/               # 50 مصدر دخل
+├── income_streams/               # 60 مصدر دخل
 │   ├── common/                   # بنية مشتركة (ai_client, config, utils)
 │   │
 │   │  ── الأساسية (1-11) ──
@@ -261,14 +293,26 @@ Test-/
 │   ├── academic_assistant/       # 48. مساعد أكاديمي
 │   ├── grant_proposals/          # 49. مقترحات منح
 │   └── feedback_analyzer/        # 50. تحليل تعليقات
+│   │
+│   │  ── التسويق والمبيعات (51-60) ──
+│   ├── email_sequences/          # 51. تسلسلات إيميل
+│   ├── sales_funnel/             # 52. قمع مبيعات
+│   ├── landing_page_copy/        # 53. صفحات هبوط
+│   ├── ad_copy_generator/        # 54. مولد إعلانات
+│   ├── lead_magnet_creator/      # 55. Lead Magnets
+│   ├── pricing_optimizer/        # 56. تسعير ذكي
+│   ├── customer_journey/         # 57. رحلة العميل
+│   ├── affiliate_program/        # 58. برنامج أفلييت
+│   ├── launch_sequence/          # 59. خطة إطلاق
+│   └── seo_optimizer/            # 60. تحسين SEO
 │
-├── prompt_frameworks/            # أطر العمل الـ 6
+├── prompt_frameworks/            # أطر العمل الـ 14
 │   ├── runner.py                 # CLI لتشغيل أي إطار
 │   ├── base_framework.py         # الفئة الأساسية
 │   ├── templates/                # قوالب YAML
-│   └── *.py                      # الأطر الـ 6
+│   └── *.py                      # الأطر الـ 14
 │
-├── tests/                        # 56 اختبار
+├── tests/                        # 66 اختبار
 ├── .env.example                  # نموذج المتغيرات
 └── requirements.txt              # المتطلبات
 ```

@@ -10,7 +10,7 @@ from income_streams.common import AIClient
 
 
 class BaseFramework(ABC):
-    """Abstract base for the 6 prompt frameworks.
+    """Abstract base for the 14 prompt frameworks.
 
     Each framework loads its template from a YAML file, collects user inputs,
     builds the final prompt, and runs it through the AI client.
