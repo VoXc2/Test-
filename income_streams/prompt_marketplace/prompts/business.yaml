@@ -1,0 +1,68 @@
+category: business
+category_ar: الأعمال
+prompts:
+  - name: "Business Plan Generator"
+    name_ar: "مولد خطط الأعمال"
+    description: "Generate investor-ready business plans"
+    price_tier: premium
+    price_usd: 10
+    variables: [business_idea, target_market, budget, timeline]
+    prompt: |
+      Create a comprehensive business plan for: {business_idea}
+
+      Target market: {target_market}
+      Initial budget: {budget}
+      Timeline: {timeline}
+
+      Include all standard sections:
+      1. Executive Summary
+      2. Company Description
+      3. Market Analysis (TAM/SAM/SOM)
+      4. Organization & Management
+      5. Products/Services
+      6. Marketing & Sales Strategy
+      7. Financial Projections (3 years)
+      8. Funding Requirements
+      9. Risk Analysis & Mitigation
+      10. Implementation Timeline
+
+  - name: "Pitch Deck Script Writer"
+    name_ar: "كاتب سيناريو العروض التقديمية"
+    description: "Write compelling pitch deck scripts for investors"
+    price_tier: premium
+    price_usd: 8
+    variables: [startup_name, problem, solution, traction, ask_amount]
+    prompt: |
+      Write a 10-slide pitch deck script for {startup_name}.
+
+      Problem: {problem}
+      Solution: {solution}
+      Current traction: {traction}
+      Funding ask: {ask_amount}
+
+      For each slide provide:
+      - Slide title
+      - Key visual/data to show
+      - Speaker notes (what to say)
+      - Transition to next slide
+
+  - name: "Competitor Analysis Framework"
+    name_ar: "إطار تحليل المنافسين"
+    description: "Deep competitive analysis for any market"
+    price_tier: standard
+    price_usd: 5
+    variables: [company, industry, competitors]
+    prompt: |
+      Perform a deep competitor analysis for {company} in the {industry} industry.
+
+      Known competitors: {competitors}
+
+      Analyze:
+      1. Competitor positioning map
+      2. SWOT for each competitor
+      3. Pricing comparison matrix
+      4. Feature comparison table
+      5. Marketing channel analysis
+      6. Customer sentiment summary
+      7. Gaps and opportunities
+      8. Strategic recommendations

@@ -1,0 +1,62 @@
+# === AI Income Streams - Central Configuration ===
+
+ai:
+  default_provider: openai
+  default_model: gpt-4o-mini
+  temperature: 0.7
+  max_tokens: 2000
+  # Per-module model overrides (use better models for quality-sensitive tasks)
+  overrides:
+    translation_service:
+      model: gpt-4o
+      temperature: 0.3
+    prompt_frameworks:
+      model: gpt-4o
+      temperature: 0.5
+      max_tokens: 4000
+
+content_generation:
+  default_language: ar
+  supported_languages: [ar, en]
+  blog:
+    min_words: 800
+    max_words: 2000
+    default_tone: professional
+  social_media:
+    platforms: [twitter, linkedin, instagram]
+    twitter_max_chars: 280
+    linkedin_max_chars: 3000
+  newsletter:
+    max_sections: 5
+
+translation_service:
+  default_source: en
+  default_target: ar
+  supported_languages: [ar, en, fr, es, de, tr]
+  batch_size: 10
+  glossary_path: config/glossary.yaml
+
+micro_saas:
+  host: 0.0.0.0
+  port: 8000
+  rate_limit: 30  # requests per minute for free tier
+  tools:
+    - text_summarizer
+    - email_writer
+    - grammar_checker
+
+freelance_proposals:
+  platforms: [upwork, fiverr, khamsat, mostaql]
+  default_language: en
+  proposal_max_words: 500
+
+prompt_marketplace:
+  currency: USD
+  categories: [writing, coding, business, marketing]
+  free_preview_length: 100  # chars to show before purchase
+
+output:
+  base_dir: output
+  content_dir: output/content
+  translations_dir: output/translations
+  reports_dir: output/reports
