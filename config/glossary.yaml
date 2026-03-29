@@ -1,0 +1,55 @@
+# Translation Glossary - مسرد المصطلحات
+# Add domain-specific terms to ensure consistent translation
+
+general:
+  AI: الذكاء الاصطناعي
+  machine learning: تعلم الآلة
+  deep learning: التعلم العميق
+  startup: شركة ناشئة
+  entrepreneur: رائد أعمال
+  e-commerce: التجارة الإلكترونية
+  blockchain: البلوكتشين
+  cloud computing: الحوسبة السحابية
+  SaaS: البرمجيات كخدمة
+  API: واجهة برمجة التطبيقات
+
+technical:
+  algorithm: خوارزمية
+  database: قاعدة بيانات
+  framework: إطار عمل
+  backend: الواجهة الخلفية
+  frontend: الواجهة الأمامية
+  deployment: النشر
+  repository: مستودع
+  server: خادم
+  authentication: المصادقة
+  encryption: التشفير
+
+business:
+  revenue: إيرادات
+  profit margin: هامش الربح
+  ROI: العائد على الاستثمار
+  KPI: مؤشر الأداء الرئيسي
+  market share: الحصة السوقية
+  supply chain: سلسلة التوريد
+  stakeholder: أصحاب المصلحة
+  value proposition: القيمة المقترحة
+  scalability: قابلية التوسع
+
+medical:
+  diagnosis: تشخيص
+  treatment: علاج
+  clinical trial: تجربة سريرية
+  patient: مريض
+  healthcare: الرعاية الصحية
+  pharmaceutical: صيدلاني
+  therapy: علاج/معالجة
+
+legal:
+  contract: عقد
+  litigation: تقاضي
+  compliance: الامتثال
+  jurisdiction: الاختصاص القضائي
+  intellectual property: الملكية الفكرية
+  regulation: تنظيم/لائحة
+  liability: مسؤولية قانونية

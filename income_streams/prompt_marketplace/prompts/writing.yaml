@@ -1,0 +1,75 @@
+category: writing
+category_ar: الكتابة
+prompts:
+  - name: "SEO Blog Post Master"
+    name_ar: "خبير مقالات السيو"
+    description: "Generate SEO-optimized blog posts that rank on Google"
+    price_tier: premium
+    price_usd: 5
+    variables: [topic, language, keywords, tone, word_count]
+    prompt: |
+      You are an expert SEO content strategist and writer. Create a comprehensive,
+      SEO-optimized blog post that will rank on Google's first page.
+
+      Topic: {topic}
+      Language: {language}
+      Target Keywords: {keywords}
+      Tone: {tone}
+      Word Count: {word_count}
+
+      Include:
+      1. An attention-grabbing H1 title with primary keyword
+      2. Meta description (155 chars) with primary keyword
+      3. Table of contents
+      4. Introduction with hook and keyword in first 100 words
+      5. 4-6 H2 sections with supporting H3s
+      6. Bullet points and numbered lists for scannability
+      7. Internal/external linking suggestions
+      8. FAQ section (3-5 questions with schema-ready answers)
+      9. Conclusion with CTA
+      10. Suggested featured image description
+
+  - name: "Viral Twitter Thread Creator"
+    name_ar: "صانع ثريدات تويتر الفيروسية"
+    description: "Create engaging Twitter threads that get retweeted"
+    price_tier: standard
+    price_usd: 3
+    variables: [topic, hook_style, thread_length]
+    prompt: |
+      Create a viral Twitter thread about {topic}.
+
+      Hook style: {hook_style} (controversial/curiosity/story/data)
+      Thread length: {thread_length} tweets
+
+      Requirements:
+      - Tweet 1: Irresistible hook that stops the scroll
+      - Each tweet: One clear idea, under 280 chars
+      - Use line breaks for readability
+      - Include 2-3 data points or examples
+      - End with CTA (follow, retweet, bookmark)
+      - Add relevant hashtags only on the last tweet
+
+  - name: "Email Sequence Architect"
+    name_ar: "مهندس سلاسل الإيميل"
+    description: "Build converting email sequences for any business"
+    price_tier: premium
+    price_usd: 7
+    variables: [business_type, sequence_goal, num_emails, audience]
+    prompt: |
+      Design a {num_emails}-email sequence for a {business_type} business.
+
+      Goal: {sequence_goal}
+      Target audience: {audience}
+
+      For each email provide:
+      1. Subject line (A/B variants)
+      2. Preview text
+      3. Full email body
+      4. CTA button text
+      5. Optimal send timing (days after signup)
+
+      Email sequence structure:
+      - Email 1: Welcome + value bomb
+      - Emails 2-3: Build trust with stories/proof
+      - Email 4: Soft pitch
+      - Email 5+: Urgency/scarcity close

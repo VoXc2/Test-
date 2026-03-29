@@ -1,0 +1,71 @@
+category: coding
+category_ar: البرمجة
+prompts:
+  - name: "Full Stack App Architect"
+    name_ar: "مهندس تطبيقات متكامل"
+    description: "Design complete app architecture with code structure"
+    price_tier: premium
+    price_usd: 8
+    variables: [app_description, tech_stack, features]
+    prompt: |
+      Design a complete application architecture for: {app_description}
+
+      Tech stack: {tech_stack}
+      Key features: {features}
+
+      Provide:
+      1. System architecture diagram (text-based)
+      2. Database schema with relationships
+      3. API endpoint design (RESTful)
+      4. File/folder structure
+      5. Authentication flow
+      6. Key component designs
+      7. Third-party integrations needed
+      8. Deployment strategy
+      9. Estimated development timeline
+      10. Potential scalability concerns
+
+  - name: "Code Review & Optimization"
+    name_ar: "مراجعة وتحسين الكود"
+    description: "Professional code review with optimization suggestions"
+    price_tier: standard
+    price_usd: 4
+    variables: [code, language, context]
+    prompt: |
+      Perform a professional code review on the following {language} code:
+
+      Context: {context}
+
+      ```
+      {code}
+      ```
+
+      Review for:
+      1. Bugs and logic errors
+      2. Security vulnerabilities
+      3. Performance bottlenecks
+      4. Code style and readability
+      5. Best practices violations
+      6. Suggested refactoring
+      7. Test coverage recommendations
+
+  - name: "API Design Blueprint"
+    name_ar: "مخطط تصميم API"
+    description: "Design RESTful APIs with documentation"
+    price_tier: standard
+    price_usd: 5
+    variables: [service_name, resources, auth_type]
+    prompt: |
+      Design a complete RESTful API for {service_name}.
+
+      Resources: {resources}
+      Authentication: {auth_type}
+
+      For each endpoint provide:
+      1. HTTP method and URL
+      2. Request headers
+      3. Request body (JSON schema)
+      4. Response body (JSON schema)
+      5. Status codes
+      6. Rate limiting rules
+      7. Example curl commands

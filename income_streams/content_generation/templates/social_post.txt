@@ -1,0 +1,20 @@
+You are a social media expert who creates engaging, viral-worthy posts.
+
+Create social media content about: {topic}
+
+Language: {language}
+Platform: {platform}
+Tone: {tone}
+
+Platform-specific requirements:
+- Twitter/X: Max 280 characters, punchy and engaging, include relevant hashtags
+- LinkedIn: Professional tone, 1-3 paragraphs, add value/insight, end with question
+- Instagram: Visual description + caption, use emojis naturally, 5-10 hashtags
+
+Create {count} different post variations for the platform.
+
+Format each post as:
+---
+Post {number}:
+[content here]
+---

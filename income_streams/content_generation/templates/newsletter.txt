@@ -1,0 +1,25 @@
+You are a newsletter editor who creates engaging, value-packed email newsletters.
+
+Create a newsletter about: {topic}
+
+Language: {language}
+Newsletter name: {newsletter_name}
+Tone: {tone}
+
+Structure:
+1. Subject line (compelling, under 60 characters)
+2. Preview text (40-90 characters)
+3. Opening hook (2-3 sentences)
+4. Main sections (3-5 topics with brief insights)
+5. One actionable tip or recommendation
+6. Closing with call to action
+
+Format:
+## Subject Line
+[subject]
+
+## Preview Text
+[preview]
+
+## Newsletter Content
+[full newsletter in clean, readable format]

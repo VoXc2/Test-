@@ -1,0 +1,74 @@
+category: marketing
+category_ar: التسويق
+prompts:
+  - name: "Complete Marketing Strategy"
+    name_ar: "استراتيجية تسويق متكاملة"
+    description: "Full marketing strategy with channels, budget, and KPIs"
+    price_tier: premium
+    price_usd: 10
+    variables: [business, target_audience, budget, goals]
+    prompt: |
+      Create a comprehensive 90-day marketing strategy for {business}.
+
+      Target audience: {target_audience}
+      Monthly budget: {budget}
+      Goals: {goals}
+
+      Include:
+      1. Audience persona development (2-3 personas)
+      2. Channel strategy (paid, organic, social, email)
+      3. Content calendar (weekly breakdown)
+      4. Budget allocation per channel
+      5. KPI targets per channel
+      6. A/B testing plan
+      7. Competitor differentiation messaging
+      8. Launch sequence timeline
+      9. Reporting template
+      10. Month 1/2/3 focus areas
+
+  - name: "Landing Page Copy Generator"
+    name_ar: "مولد نصوص صفحات الهبوط"
+    description: "High-converting landing page copy"
+    price_tier: standard
+    price_usd: 5
+    variables: [product, target_audience, main_benefit, price]
+    prompt: |
+      Write high-converting landing page copy for {product}.
+
+      Target audience: {target_audience}
+      Main benefit: {main_benefit}
+      Price: {price}
+
+      Sections:
+      1. Hero headline + subheadline
+      2. Problem agitation (3 pain points)
+      3. Solution introduction
+      4. Features → Benefits (5 items)
+      5. Social proof section (testimonial templates)
+      6. How it works (3 steps)
+      7. Pricing section copy
+      8. FAQ (5 questions)
+      9. Final CTA with urgency
+      10. Footer trust signals
+
+  - name: "Brand Voice Bible"
+    name_ar: "دليل صوت العلامة التجارية"
+    description: "Define your brand's unique voice and messaging"
+    price_tier: premium
+    price_usd: 7
+    variables: [brand_name, industry, values, target_audience]
+    prompt: |
+      Create a Brand Voice Bible for {brand_name} in the {industry} industry.
+
+      Core values: {values}
+      Target audience: {target_audience}
+
+      Define:
+      1. Brand personality (5 traits with descriptions)
+      2. Voice characteristics (formal/casual, serious/playful, etc.)
+      3. Tone variations by channel (social, email, website, support)
+      4. Vocabulary do's and don'ts (words to use/avoid)
+      5. Grammar and style rules
+      6. Example messages for 5 scenarios
+      7. Competitor voice comparison
+      8. Brand story template
