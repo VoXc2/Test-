@@ -1,0 +1,77 @@
+personal:
+  full_name: ""
+  headline_en: "AI-native operator and builder focused on business systems, automation, and execution."
+  headline_ar: "مشغل وباني أنظمة مدعومة بالذكاء الاصطناعي للعمليات والأتمتة والتنفيذ التجاري."
+  location: "Saudi Arabia"
+  email: ""
+  phone: ""
+  linkedin: ""
+  github: ""
+  portfolio: ""
+
+summary:
+  en:
+    - "Builder focused on turning business workflows into practical operating systems, automations, and decision-support tools."
+    - "Interested in AI operations, product operations, revenue operations, and founder-level execution."
+  ar:
+    - "باني أنظمة يركز على تحويل سير العمل التجاري إلى أنظمة تشغيل عملية وأتمتة وأدوات دعم قرار."
+    - "مهتم بعمليات الذكاء الاصطناعي، عمليات المنتجات، عمليات الإيرادات، والتنفيذ على مستوى المؤسسين."
+
+skills:
+  ai_and_automation:
+    - "AI workflow design"
+    - "Prompt engineering"
+    - "LLM API integration"
+    - "Process automation"
+  business:
+    - "Business operations"
+    - "Revenue operations"
+    - "Strategic planning"
+    - "Sales enablement"
+  technical:
+    - "GitHub"
+    - "Python"
+    - "APIs"
+    - "CLI workflows"
+    - "Documentation"
+  communication:
+    - "Arabic"
+    - "English"
+    - "Executive communication"
+
+experience:
+  - role: "Founder / Builder"
+    organization: "Project Name"
+    location: "Saudi Arabia"
+    start_date: ""
+    end_date: "Present"
+    verified: false
+    bullets:
+      - "Designed an AI-native operating system concept for business operations, sales execution, governance, and automation."
+      - "Built repository-level documentation, scripts, workflows, and strategic playbooks to support execution."
+      - "Developed offer, pipeline, governance, and operating modules intended to support real business deployment."
+
+projects:
+  - name: "Project Name"
+    type: "AI-native business operating system"
+    url: ""
+    status: "In development"
+    verified: false
+    impact:
+      - "Centralized operations, offer design, pipeline tracking, governance, and automation concepts."
+      - "Built as a founder operating system before external commercialization."
+
+education:
+  - institution: ""
+    degree: ""
+    field: ""
+    start_date: ""
+    end_date: ""
+    verified: false
+
+certifications:
+  - name: ""
+    issuer: ""
+    date: ""
+    url: ""
+    verified: false
